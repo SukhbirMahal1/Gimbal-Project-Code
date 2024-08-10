@@ -21,7 +21,7 @@ The stabilisation system is controlled using a PID algorithm, found in Gimbal_PI
 - Blue LED **FLASHING** when cables come loose/disconnect
 - Green LED **ON** when the PID control algorithm is **active**
 - A button to **activate** a _payload insert mode_
-- Blue LED AND Green LED **ON** when the _payload insert mode_ is activaated
+- Blue LED AND Green LED **ON** when the _payload insert mode_ is activated
 
 The system logic is illustrated below:
 
@@ -29,7 +29,7 @@ The system logic is illustrated below:
   <img src="https://github.com/user-attachments/assets/b5aee6fb-7f46-46f5-8698-886205346b55" alt="System Logic" width="70%">
 </p>
 
-The IMU requires a high sampling rate (above 90˚/s) to ensure smooth orientation corrections. It initializes its accelerometer and gyroscope to ±2g and 250˚/s sensitivity, respectively, and communicates with the microcontroller via I2C at 400kHz. The gimbal uses the MPU6050's Digital Motion Processor (DMP) to obtain the antenna’s orientation data using quaternions, which offloads motion processing tasks from the microcontroller.
+The IMU requires a high sampling rate (above 90˚/s) to ensure smooth orientation corrections. It initialises its accelerometer and gyroscope to ±2g and 250˚/s sensitivity, respectively, and communicates with the microcontroller via I2C at 400kHz. The gimbal uses the MPU6050's Digital Motion Processor (DMP) to obtain the antenna’s orientation data using quaternions, which offloads motion processing tasks from the microcontroller.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/55346361-172c-4cb6-ad64-e3af2ba082e4" alt="System Overview" width="45%">
