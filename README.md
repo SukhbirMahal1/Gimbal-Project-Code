@@ -13,7 +13,7 @@ Arduino code for a two-axis payload stabilization system using an MPU6050 as the
   <b>Electronics Arduino Shield</b>
 </p>
 
-This system is part of a larger Fixed-Wing UAV University design project. It was broken down into two main tasks: (a) designing, building, and testing a wing for a lightweight UAV, and (b) developing a payload stabilization system that orients a bespoke antenna to always point normal to the Earth's surface.
+This system is part of a larger fixed-wing unmanned aerial vehicle (UAV) second year university design project. It was broken down into two main tasks: (a) designing, building, and testing a wing for a lightweight UAV, and (b) developing a payload stabilization system that orients a bespoke antenna to always point normal to the Earth's surface.
 
 The stabilisation system is controlled using a PID algorithm, found in Gimbal_PID_Control_Algorithm/src/main.cpp, which monitors the difference between the sensor orientation and the desired setpoint (0˚) at a fixed loop rate. This closed-loop control allows the gimbal to achieve stable responses that are resilient to disturbances. The actuators can move ±90˚ but are constrained to ±50˚ to prevent collisions between rotating elements in the structure. The design also includes user-friendly functions such as:
 
