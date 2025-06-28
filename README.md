@@ -1,5 +1,5 @@
 # Gimbal Project Code
-Arduino code for a two-axis payload stabilization system using an MPU6050 as the inertial measurement unit (IMU) and two SG90 servos as actuators. This project includes additional user-friendly features such as LED indicators for debugging and communication, and a mode-switching button.
+Arduino code for a two-axis payload stabilisation system using an MPU6050 as the inertial measurement unit (IMU) and two SG90 servos as actuators. This project includes additional user-friendly features such as LED indicators for debugging and communication, and a mode-switching button.
 
 ## Project Overview
 <p align="center">
