@@ -26,7 +26,7 @@ The system logic is illustrated below:
 
 The IMU requires a high sampling rate (above 90˚/s) to ensure smooth orientation corrections. It initialises its accelerometer and gyroscope to ±2g and 250˚/s sensitivity, respectively, and communicates with the microcontroller via I2C at 400kHz. The gimbal uses the MPU6050's Digital Motion Processor (DMP) to obtain the antenna’s orientation data using quaternions, which offloads motion processing tasks from the microcontroller.
 
-The PID gain tuning was performed using a gimbal testing table which simulated in-flight conditions, including take-off, landing, and turbulence. The system response to pitch and roll perturbations exhibited a small steady-state error with a noticeable but non-disruptive overshoot, as shown below.
+The PID gain tuning was performed using a gimbal testing table which simulated in-flight conditions, including take-off, landing, and turbulence. The system response to pitch and roll perturbations exhibited a small steady-state error with a noticeable but non-disruptive overshoot, as shown below:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/55346361-172c-4cb6-ad64-e3af2ba082e4" alt="Pitch PID Control Response" width="45%">
